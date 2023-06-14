@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess</title>
+    <link rel="stylesheet" href="../css/chess.css">
+</head>
+<body>
+    <div>
+        <p><b class="sG">Select Game</b></p>
+        <div class="selectGameType">
+            <span><strong>Rapid 10:00 min</strong></span>
+            <input type="radio" value="10" name="timer" class="timerInput">
+            <span><strong>Blitz 03:00 min</strong></span>
+            <input type="radio" value="03" name="timer" class="timerInput">
+        </div>
+    </div>
+    <div class="gameInitilization">
+        <div class="player" id="player1">
+            <div>
+                <label for="playerName">White Player name</label>
+                <input id="playerName1" placeholder="Player Name"/>
+            </div>
+            <p id="timer1"></p>
+            <p id="capturedPieces1"></p>
+        </div>
+        <div class="player" id="player2">
+            <div>
+                <label for="playerName">Black Player name</label>
+                <input id="playerName2" placeholder="Player Name"/>
+            </div>
+            <p id="timer2"></p>
+            <p id="capturedPieces2"></p>
+        </div>
+    </div>
+    <section id="root"></section>
+</body>
+<script src="../js/chess.js"></script>
+</html>
