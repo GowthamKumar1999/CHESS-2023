@@ -5,47 +5,47 @@ let w_promote = 3;
 const generateDropdown = (color) => {
   const whiteImgs = [
     {
-      img: "./media/w_queen.svg",
+      img: "../media/w_queen.svg",
       code: "qw" + w_promote,
       name: "Queen White" + w_promote,
     },
     {
-      img: "./media/w_rook.svg",
+      img: "../media/w_rook.svg",
       code: "r" + w_promote,
       name: "Rook White" + w_promote,
     },
     {
-      img: "./media/w_knight.svg",
+      img: "../media/w_knight.svg",
       code: "k" + w_promote,
       name: "Knight White" + w_promote,
     },
     {
-      img: "./media/w_bishop.svg",
+      img: "../media/w_bishop.svg",
       code: "b" + w_promote,
       name: "Bishop White" + w_promote,
     },
   ];
   const blackImgs = [
     {
-      img: "./media/b_bishop.svg",
+      img: "../media/b_bishop.svg",
       code: "bx" + b_promote,
       name: "Bishop White",
       b_promote,
     },
     {
-      img: "./media/b_knight.svg",
+      img: "../media/b_knight.svg",
       code: "kx" + b_promote,
       name: "Knight White",
       b_promote,
     },
     {
-      img: "./media/b_rook.svg",
+      img: "../media/b_rook.svg",
       code: "rx" + b_promote,
       name: "Rook White",
       b_promote,
     },
     {
-      img: "./media/b_queen.svg",
+      img: "../media/b_queen.svg",
       code: "qb" + b_promote,
       name: "Queen White",
       b_promote,
@@ -645,7 +645,7 @@ const rx1 = new Piece(
   { x: 1, y: 1 },
   { x: 1, y: 1 },
   [],
-  "./media/b_rook.svg",
+  "../media/b_rook.svg",
   "Rook Black 1",
   "rx1"
 );
@@ -654,7 +654,7 @@ const rx2 = new Piece(
   { x: 1, y: 8 },
   { x: 1, y: 8 },
   [],
-  "./media/b_rook.svg",
+  "../media/b_rook.svg",
   "Rook Black 2",
   "rx2"
 );
@@ -672,7 +672,7 @@ const kx2 = new Piece(
   { x: 1, y: 7 },
   { x: 1, y: 7 },
   [],
-  "./media/b_knight.svg",
+  "../media/b_knight.svg",
   "Knight Black 2",
   "kx2"
 );
@@ -681,7 +681,7 @@ const bx1 = new Piece(
   { x: 1, y: 3 },
   { x: 1, y: 3 },
   [],
-  "./media/b_bishop.svg",
+  "../media/b_bishop.svg",
   "Bishop Black 1",
   "bx1"
 );
@@ -690,7 +690,7 @@ const bx2 = new Piece(
   { x: 1, y: 6 },
   { x: 1, y: 6 },
   [],
-  "./media/b_bishop.svg",
+  "../media/b_bishop.svg",
   "Bishop Black 2",
   "bx2"
 );
@@ -699,7 +699,7 @@ const kb = new Piece(
   { x: 1, y: 5 },
   { x: 1, y: 5 },
   [],
-  "./media/b_king.svg",
+  "../media/b_king.svg",
   "King Black",
   "kb"
 );
@@ -708,7 +708,7 @@ const qb = new Piece(
   { x: 1, y: 4 },
   { x: 1, y: 4 },
   [],
-  "./media/b_queen.svg",
+  "../media/b_queen.svg",
   "Queen Black",
   "qb"
 );
@@ -718,7 +718,7 @@ const px1 = new Piece(
   { x: 2, y: 1 },
   { x: 2, y: 1 },
   [],
-  "./media/b_pawn.svg",
+  "../media/b_pawn.svg",
   "Pawn Black 1",
   "px1"
 );
@@ -727,7 +727,7 @@ const px2 = new Piece(
   { x: 2, y: 2 },
   { x: 2, y: 2 },
   [],
-  "./media/b_pawn.svg",
+  "../media/b_pawn.svg",
   "Pawn Black 2",
   "px2"
 );
@@ -736,25 +736,25 @@ const px3 = new Piece(
   { x: 2, y: 3 },
   { x: 2, y: 3 },
   [],
-  "./media/b_pawn.svg",
+  "../media/b_pawn.svg",
   "Pawn Black 3",
   "px3"
 );
 const px4 = new Piece(
   "black",
-  { x: 7, y: 7 },
-  { x: 7, y: 7 },
+  { x: 2, y: 4 },
+  { x: 2, y: 4 },
   [],
-  "./media/b_pawn.svg",
+  "../media/b_pawn.svg",
   "Pawn Black 4",
   "px4"
 );
 const px5 = new Piece(
   "black",
-  { x: 7, y: 8 },
-  { x: 7, y: 8 },
+  { x: 2, y: 5 },
+  { x: 2, y: 5 },
   [],
-  "./media/b_pawn.svg",
+  "../media/b_pawn.svg",
   "Pawn Black 5",
   "px5"
 );
@@ -763,7 +763,7 @@ const px6 = new Piece(
   { x: 2, y: 6 },
   { x: 2, y: 6 },
   [],
-  "./media/b_pawn.svg",
+  "../media/b_pawn.svg",
   "Pawn Black 6",
   "px6"
 );
@@ -772,7 +772,7 @@ const px7 = new Piece(
   { x: 2, y: 7 },
   { x: 2, y: 7 },
   [],
-  "./media/b_pawn.svg",
+  "../media/b_pawn.svg",
   "Pawn Black 7",
   "px7"
 );
@@ -781,7 +781,7 @@ const px8 = new Piece(
   { x: 2, y: 8 },
   { x: 2, y: 8 },
   [],
-  "./media/b_pawn.svg",
+  "../media/b_pawn.svg",
   "Pawn Black 8",
   "px8"
 );
@@ -791,7 +791,7 @@ const p1 = new Piece(
   { x: 7, y: 1 },
   { x: 7, y: 1 },
   [],
-  "./media/w_pawn.svg",
+  "../media/w_pawn.svg",
   "Pawn White 1",
   "p1"
 );
@@ -800,7 +800,7 @@ const p2 = new Piece(
   { x: 7, y: 2 },
   { x: 7, y: 2 },
   [],
-  "./media/w_pawn.svg",
+  "../media/w_pawn.svg",
   "Pawn White 2",
   "p2"
 );
@@ -809,7 +809,7 @@ const p3 = new Piece(
   { x: 7, y: 3 },
   { x: 7, y: 3 },
   [],
-  "./media/w_pawn.svg",
+  "../media/w_pawn.svg",
   "Pawn White 3",
   "p3"
 );
@@ -818,25 +818,25 @@ const p4 = new Piece(
   { x: 7, y: 4 },
   { x: 7, y: 4 },
   [],
-  "./media/w_pawn.svg",
+  "../media/w_pawn.svg",
   "Pawn White 4",
   "p4"
 );
 const p5 = new Piece(
   "white",
-  { x: 2, y: 2 },
-  { x: 2, y: 2 },
+  { x: 7, y: 5 },
+  { x: 7, y: 5 },
   [],
-  "./media/w_pawn.svg",
+  "../media/w_pawn.svg",
   "Pawn White 5",
   "p5"
 );
 const p6 = new Piece(
   "white",
-  { x: 2, y: 1 },
-  { x: 2, y: 1 },
+  { x: 7, y: 6 },
+  { x: 7, y: 6 },
   [],
-  "./media/w_pawn.svg",
+  "../media/w_pawn.svg",
   "Pawn White 6",
   "p6"
 );
@@ -845,7 +845,7 @@ const p7 = new Piece(
   { x: 7, y: 7 },
   { x: 7, y: 7 },
   [],
-  "./media/w_pawn.svg",
+  "../media/w_pawn.svg",
   "Pawn White 7",
   "p7"
 );
@@ -854,7 +854,7 @@ const p8 = new Piece(
   { x: 7, y: 8 },
   { x: 7, y: 8 },
   [],
-  "./media/w_pawn.svg",
+  "../media/w_pawn.svg",
   "Pawn White 8",
   "p8"
 );
@@ -863,7 +863,7 @@ const r1 = new Piece(
   { x: 8, y: 1 },
   { x: 8, y: 1 },
   [],
-  "./media/w_rook.svg",
+  "../media/w_rook.svg",
   "Rook White 1",
   "r1"
 );
@@ -872,7 +872,7 @@ const r2 = new Piece(
   { x: 8, y: 8 },
   { x: 8, y: 8 },
   [],
-  "./media/w_rook.svg",
+  "../media/w_rook.svg",
   "Rook White 2",
   "r2"
 );
@@ -881,7 +881,7 @@ const k1 = new Piece(
   { x: 8, y: 2 },
   { x: 8, y: 2 },
   [],
-  "./media/w_knight.svg",
+  "../media/w_knight.svg",
   "Knight White 1",
   "k1"
 );
@@ -890,7 +890,7 @@ const k2 = new Piece(
   { x: 8, y: 7 },
   { x: 8, y: 7 },
   [],
-  "./media/w_knight.svg",
+  "../media/w_knight.svg",
   "Knight White 2",
   "k2"
 );
@@ -899,7 +899,7 @@ const b1 = new Piece(
   { x: 8, y: 3 },
   { x: 8, y: 3 },
   [],
-  "./media/w_bishop.svg",
+  "../media/w_bishop.svg",
   "Bishop White 1",
   "b1"
 );
@@ -908,7 +908,7 @@ const b2 = new Piece(
   { x: 8, y: 6 },
   { x: 8, y: 6 },
   [],
-  "./media/w_bishop.svg",
+  "../media/w_bishop.svg",
   "Bishop White 2",
   "b2"
 );
@@ -917,7 +917,7 @@ const kw = new Piece(
   { x: 8, y: 8 },
   { x: 8, y: 5 },
   [],
-  "./media/w_king.svg",
+  "../media/w_king.svg",
   "King White",
   "kw"
 );
@@ -926,22 +926,22 @@ const qw = new Piece(
   { x: 8, y: 4 },
   { x: 8, y: 4 },
   [],
-  "./media/w_queen.svg",
+  "../media/w_queen.svg",
   "Queen White",
   "qw"
 );
 
 const piecesArr = [
-  // rx1,
+  rx1,
   rx2,
   bx1,
   bx2,
-  // kx1,
+  kx1,
   kx2,
   qb,
   kb,
-  // px1,
-  // px2,
+  px1,
+  px2,
   px3,
   px4,
   px5,
@@ -949,11 +949,11 @@ const piecesArr = [
   px7,
   px8,
   r1,
-  // r2,
+  r2,
   b1,
   b2,
   k1,
-  // k2,
+  k2,
   qw,
   kw,
   p1,
@@ -962,8 +962,8 @@ const piecesArr = [
   p4,
   p5,
   p6,
-  // p7,
-  // p8,
+  p7,
+  p8,
 ];
 
 piecesArr.forEach((e) => e.displayPiece());
