@@ -1,5 +1,5 @@
 let allMoves = [];
-const root = document.getElementById("chess");
+const root = document.querySelector("#root");
 let b_promote = 3;
 let w_promote = 3;
 const generateDropdown = (color,pos) => {
@@ -365,6 +365,8 @@ const calculateBishopMoves = (obj) => {
   obj.validMoves = filteredMoves;
 };
 
+
+
 const calculateQueenMoves = (obj) => {
   calculateBishopMoves(obj);
   const { currentPos } = obj;
@@ -388,6 +390,8 @@ const calculateQueenMoves = (obj) => {
   const filteredMoves = filterMoves(newDir, obj);
   obj.validMoves = filteredMoves;
 };
+
+
 
 const splitRookDirections = (obj) => {
   const { moves } = obj;
