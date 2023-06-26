@@ -308,7 +308,7 @@ const calculateRookMoves = (obj) => {
     if (newX > 8) {
       newX = newX - 8;
     }
-    obj.moves.push({ x: newX, y: currentPos.y });
+    obj.moves.push({ x: newX , y: currentPos.y });
   }
   for (let i = 1; i < 8; i++) {
     let newY = currentPos.y + i;
