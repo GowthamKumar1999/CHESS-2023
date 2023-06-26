@@ -1063,7 +1063,6 @@ for (const ti of timerInput) {
 }
 
 let player1Inp, player2Inp;
-
 document
   .getElementById("playerName1")
   .addEventListener("change", (e) => (player1Inp = e.target.value));
